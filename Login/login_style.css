@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Anton";
+    font-style: normal;
+    src: url("../Utility/Fonts/Anton/Anton-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    font-style: normal;
+    src: url("../Utility/Fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+body{
+    background-image: url("res/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login{
+    width: 35%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.608);
+    margin-top: 100px;
+    margin-left: 33%;
+    border-radius: 20px;
+    padding: 2px 0px 2px;
+}
+
+#caption_left{
+    font-family: "Anton";
+    color: white;
+}
+
+#caption_right{
+    font-family: "Pacifico";
+    color: white;
+}
+
